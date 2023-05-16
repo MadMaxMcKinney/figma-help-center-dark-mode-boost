@@ -191,6 +191,10 @@ div.ui-icon, span.ui-icon {
     color: var(--text-seconday) !important;
 }
 
+.alphabet {
+  color: var(--text-primary) !important;
+}
+
 /* Article Controls */
 
 .article-return-to-top {
