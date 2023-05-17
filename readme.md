@@ -2,7 +2,7 @@
 
 ![version](https://img.shields.io/github/v/tag/madmaxmckinney/figma-help-center-dark-mode-boost?color=blueviolet&label=version)
 
-![Figma Help Center Dark Mode Thumbnail](https://github.com/MadMaxMcKinney/figma-help-center-dark-mode-boost/assets/1159073/9b421142-480b-471e-96f6-78d97809b5d6)
+![Figma Help Center Dark Mode Thumbnail v2](https://github.com/MadMaxMcKinney/figma-help-center-dark-mode-boost/assets/1159073/8ca8ce3d-10d3-47ff-b774-67337d75ad98)
 
 A Boost for the Arc browser that provides a dark mode experience for the Figma Help Center. 
 
