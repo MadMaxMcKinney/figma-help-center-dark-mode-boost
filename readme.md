@@ -1,5 +1,7 @@
 # Figma Help Center Dark Mode [Boost]
 
+![Figma Help Center Dark Mode Thumbnail](https://github.com/MadMaxMcKinney/figma-help-center-dark-mode-boost/assets/1159073/9b421142-480b-471e-96f6-78d97809b5d6)
+
 A Boost for the Arc browser that provides a dark mode experience for the Figma Help Center. 
 
 Going from a dark mode Figma file to the help center late at night? Keep your eyes safe from!
