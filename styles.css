@@ -37,6 +37,18 @@ body h1, body h2, body h3, body h4, body h5, body h6 {
   color: var(--text-primary);
 }
 
+body.figjam-article::after {
+  position: fixed;
+  content: '';
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -5;
+  opacity: 0.5;
+  background: url('https://github.com/MadMaxMcKinney/figma-help-center-dark-mode-boost/blob/main/grid.png?raw=true') !important;
+}
+
 /* Nav */
 
 body .header-wrapper {
@@ -129,8 +141,40 @@ body a:hover {
   color: var(--text-seconday) !important;
 }
 
-.note-wrapper .note p > span, .caution-wrapper .caution p > span, .tip-wrapper .tip p > span, .important-wrapper .important p > span, .notice-wrapper .notice p > span, .danger-wrapper .danger p > span, .warning-wrapper .warning p > span {
+.note-wrapper .note p > span, .caution-wrapper .caution p > span, .tip-wrapper .tip p > span, .important-wrapper .important p > span, .notice-wrapper .notice p > span, .danger-wrapper .danger p > span, .warning-wrapper .warning p > span,
+.note-wrapper .note p > strong:first-child, .caution-wrapper .caution p > strong:first-child, .tip-wrapper .tip p > strong:first-child, .important-wrapper .important p > strong:first-child, .notice-wrapper .notice p > strong:first-child, .danger-wrapper .danger p > strong:first-child, .warning-wrapper .warning p > strong:first-child {
     color: var(--text-primary) !important;
+}
+
+/* Tabs */
+.tab {
+  background: var(--surface-secondary) !important;
+  border: 2px solid var(--border-tertiary) !important;
+  border-bottom: none !important;
+}
+
+.tab button {
+  color: var(--text-seconday) !important;
+}
+
+.tab button:hover {
+  color: var(--text-invert) !important;
+  background-color: var(--surface-invert) !important;
+}
+
+.tab button.active {
+    color: var(--text-brand) !important;
+    background-color: var(--surface-brand-purple) !important;
+}
+
+.tabcontent {
+    border: 2px solid var(--border-tertiary) !important;
+    background-color: var(--surface-secondary) !important;
+    padding-bottom: 16px !important;
+}
+
+.tabcontent ul:last-child, .tabcontent ol:last-child {
+  margin-bottom: 0px !important;
 }
 
 /* Article Content */
@@ -151,14 +195,19 @@ body a:hover {
   border: 2px solid var(--border-tertiary) !important;
 }
 
-div.ui-icon, span.ui-icon {
+div.ui-icon, span.ui-icon, .ui-icon-no-border {
     filter: invert(1);
     border: none !important;
 }
 
-.before-you-start {
+.before-you-start, .fj-bys-ui {
   background: var(--surface-secondary) !important;
   border: 2px solid var(--border-primary) !important;
+  color: var(--text-seconday) !important;
+}
+
+.fj-bys-ui .label {
+  background: transparent !important;
   color: var(--text-seconday) !important;
 }
 
