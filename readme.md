@@ -1,4 +1,4 @@
-# Figma Help Center Dark Mode [Boost]
+# Figma Help Center — Dark Mode
 
 ![Figma Help Center Dark Mode Thumbnail](https://github.com/MadMaxMcKinney/figma-help-center-dark-mode-boost/assets/1159073/9b421142-480b-471e-96f6-78d97809b5d6)
 
